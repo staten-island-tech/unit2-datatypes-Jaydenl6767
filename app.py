@@ -39,29 +39,27 @@
 #         print('This number is odd')
 # odd_even()'''
 
-def y(y):
-    print (y * 2)
-y(5)
+def ser():
+    tip = input("How was your service? Bad,Okay,Good,Great")
+    s = 0
+    if tip == 'Great':
+        s = 0.25
+    elif tip == 'Good':
+        s = 0.20
+    elif tip == 'Okay':
+        s = 0.15
+    elif tip == 'Bad':
+        s = 0
+    else:
+        print ("Invalid")
+    bill = float(input("What is your bill amount?" ))
+    Subtotal = s * bill
+    Total = bill + Subtotal
+    print (f"This is your total {Total}")
+ser()
+        
 
-def ser(s):
-    def bill(b):
-    if s == ("bad"):
-        def tip(x):
-            print(b * x)
-            bill(10)
-            tip(0)
-    
-    elif s == ("okay"):
-       def tip (x):
-        print(b * x)
-        tip(15)
-    elif s == ("good"):
-    def tip (x):
-        print(b * x)
-        tip(20)
-    elif s == ("Great"):
-        def tip (x):
-        print(b * x)
-        tip(25)
-    ser("bad")
+
+
+
     
