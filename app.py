@@ -39,7 +39,7 @@
 #         print('This number is odd')
 # odd_even()'''
 
-def ser():
+'''def ser():
     tip = input("How was your service? Bad,Okay,Good,Great")
     s = 0
     if tip == 'Great':
@@ -56,7 +56,11 @@ def ser():
     Subtotal = s * bill
     Total = bill + Subtotal
     print (f"This is your total {Total}")
-ser()
+ser()'''
+
+def Factor(f):
+    if x  % 
+
         
 
 
