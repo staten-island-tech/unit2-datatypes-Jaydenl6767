@@ -59,9 +59,9 @@
 ser()'''
 
 def Factor(f):
-    if x  % 
-
-        
+    math.min[x,y]
+    for i in range(f):
+        if x % i == 0
 
 
 
