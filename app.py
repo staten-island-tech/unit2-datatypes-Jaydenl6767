@@ -58,10 +58,15 @@
     print (f"This is your total {Total}")
 ser()'''
 
-def Factor(f):
-    math.min[x,y]
-    for i in range(f):
-        if x % i == 0
+def factor(x):
+    for i in range(x):
+        if (6%x) == 0:
+            print (f"{x} is a factor")
+        factor(x+1)
+factor(1)
+               
+   
+
 
 
 
