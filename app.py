@@ -56,19 +56,18 @@
     Subtotal = s * bill
     Total = bill + Subtotal
     print (f"This is your total {Total}")
-ser()'''
+ser()
 
 def factor(x):
     for i in range(x):
-        if (6%x) == 0:
-            print (f"{x} is a factor")
+        if (144%x==0):
+            print(f"{x} is a factor")
         factor(x+1)
-factor(1)
-               
-   
+factor(1)'''   
 
-
-
-
-
-    
+def GCF(x,y):
+    for i in range(x):
+        if (x%i == 0) and (y%i == 0):
+            print(f"{x} is the GCF")
+        GCF(x+1)
+GCF(121,11)
