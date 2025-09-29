@@ -65,9 +65,10 @@ def factor(x):
         factor(x+1)
 factor(1)'''   
 
-def GCF(x,y):
-    for i in range(x):
-        if (x%i == 0) and (y%i == 0):
-            print(f"{x} is the GCF")
-        GCF(x+1)
-GCF(121,11)
+def common_factor(x,y):
+    GCF = 0
+    for i in range(2,x):
+      if x % i == 0 and y % i == 0:
+            GCF = i
+    print (f"{GCF} is the Greatest Common Factor")
+common_factor (25,5)
